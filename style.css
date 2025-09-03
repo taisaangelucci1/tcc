@@ -1,67 +1,46 @@
-body {
+* {
   margin: 0;
-  background-color: #215375;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #6200ea;
   color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-.tela {
-  position: relative;
-  width: 390px;
-  height: 896px;
-  margin: 0 auto;
-  background-color: #215375;
-  overflow: hidden;
-}
-
-/* Status bar */
-.status-bar {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  right: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hora {
-  font-size: 14px;
-}
-
-.icones img {
-  height: 12px;
-  margin-left: 4px;
-}
-
-/* Título */
-.titulo {
-  position: absolute;
-  top: 148px;
-  left: 39px;
-  font-size: 24px;
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
   font-weight: bold;
 }
 
-/* Imagem central */
-.imagem {
-  position: absolute;
-  top: 366px;
-  left: 53px;
-  width: 280px;
+.hero {
+  text-align: center;
+  padding: 40px;
 }
 
-/* Botão */
-.botao {
-  position: absolute;
-  top: 778px;
-  left: 49px;
-  width: 292px;
-  height: 50px;
-  background-color: #183642;
-  border: none;
-  border-radius: 25px;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
+.hero img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 20px;
+}
+
